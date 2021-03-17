@@ -88,20 +88,12 @@ Right Rotated Bits: 01001011
 ```
 ### Lab 9 :-
 Write an algorithm to Split the Input String into two strings based on even and odd indexes. Left padd '000' string and right pad with '111' string.
-Input: 
-code.in 
-Output : 
-000cd.n111
-000oei111
+
 #### Test Cases :
 ```
-Sample Input:  255.64.12.11
-Sample Output: 255.64.12.11
-valid IP
-Defanged IP: 255[.]64[.]12[.]11
-Sample Input: 255.642.32.11
-Sample Output: 255.642.32.11
-Invalid IP
+Sample Input:  code.in
+Sample Output: 000cd.n111
+               000oei111
 ```
 ### Lab 10 :-
 Write a function that creates Even array elements which accepts N is input. Push N to Even Array if the N is even number.
@@ -140,19 +132,15 @@ O/P : [2,3,5,4,1,7]
 ```
 ### Lab 12 :- 
 Split the array and add the first part to the end. There is a given array and split it from a specified position, and move the first part of array add to the end.Write a function that accepts an array and index position to split as arguments. 
-Input: 
-arr= [12, 10, 5, 6, 52, 36], index position to split = 2
-Output : [5, 6, 52, 36, 12, 10]
+Index position to split = 2
+
 #### Test Cases :
 ```
 Sample Input 1 :
-Array : [1,3,5,6]
-Target Element : 5
-o/p : 2
-Sample Input 2 :
-Array : [1,3,5,6]
-Target Element : 7
-o/p : 4
+arr= [12, 10, 5, 6, 52, 36]
+Output :
+Array : [5, 6, 52, 36, 12, 10]
+
 ```
 ### Lab 13 :- 
 Write a program to calculate trailing zeros count for factorial of a given input N Number.
