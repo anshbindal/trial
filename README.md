@@ -8,40 +8,74 @@ Javascript.
 Pattern 1
 #### Test Case :
 ```
-Input:
-array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,23,97];
-Output:
-primeArr = [2,3,5,7,11,13,23,97];
+
 ```
 ### Lab 2 :-
 Pattern 2
 #### Test Cases :
 ```
-Input:
-array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-Output:
-primeArr = [2,3,5,7,11,13];
+
 ```
 ### Lab 3 :-
 Write a Function that accepts the range to Find Odd Numbers between the input range.
 ##### Test Cases :
 ```
-Sample Input 1 :10,20,30,40,2,5,7,153,1024,1634,11
-Expected Output format :
-Prime Numbers Count : 4
-Narcissistic Numbers Count : 5
-The updated array : `10,20,30,40,1024`
+Sample Input 1 :  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sample Output 1 : 1, 3, 5, 7, 9
+
+Sample Input 2 :  50, 51, 52, 53, 54, 55, 56, 57, 58
+Sample Output 2 : 51, 53, 55, 57
+
 ```
 ### Lab 4 :-
 Write a Function which prints the sum of 1-N numbers when N is input.[n(n+1)/2].
 #### Test Cases :
 ```
-Sample Input 1 :
-Enter the number : 5
-Expected Output format :5 is not multiple of 11. Try again.
+Sample Input 1 : 1, 2, 3, 4, 5, 6
+Sample Output 1 : 21
+
+Sample Input 2 : 20, 21, 22, 23, 24
+Sample Output 2 : 110
 ```
 ### Lab 5 :-
 Write an Algorithm to computer x^y using WHILE loop where x and y are Function input parameters.
+#### Test Cases :
+```
+Sample Input 1 : 3, 2
+Sample Output 1 : 9
+
+Sample Input 2 : 5, 3
+Sample Output 2 : 125
+
+
+```
+### Lab 6 :-
+Print N Fibonacci numbers in one line where is N is a function input parameter.
+
+#### Test Cases :
+```
+Sample Input 1 : 10
+Sample Output 1 : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+
+Sample Input 2 : 5
+Sample Output 2 : 0, 1, 1, 2, 3, 
+
+```
+### Lab 7 :- 
+Write an Algorithm to validate the given input Number N is Prime or Not. 
+
+#### Test Cases :
+```
+Sample Input 1 :  55
+Sample Output 1 : 55 is not a prime number
+
+Sample Input 2 :  7
+Sample Output 2 : 7 is a prime number
+
+ ```
+### Lab 8 :-
+Write an algorithm(Function) that receives an input string.Write an algorithm to Split the Input String into two strings based on even and odd indexes. Left padd '000' string and right pad with '111' string.
+
 #### Test Cases :
 ```
 Sample Input 1 :
@@ -49,70 +83,25 @@ code.in
 Sample Output 1 :
 000cd.n111
 000oei111
+
 Sample Input 2 :
 Hello there
 Sample Output 2 :
 000Hlotee111
 000el hr111
 ```
-### Lab 6 :-
-Print N Fibonacci numbers in one line where is N is a function input parameter.
-
-#### Test Cases :
-```
-Sample Input: apple
-Sample Output: nccyr
-Sample Input: Jack & Jill
-Sample Output: Xnpx & Xvyy
-```
-### Lab 7 :- 
-Write an Algorithm to validate the given input Number N is Prime or Not. 
-
-#### Test Cases :
-```
-Sample Input : [1, 2, 2, 3, 4, 4, 4, 5, 5]
-Sample Output : [1, 2, 3, 4, 5]
-Number of Elements Removed : 4
- ```
-### Lab 8 :-
-Write an algorithm(Function) that receives an input string.
-
-#### Test Cases :
-```
-Sample Input: 16 //left
-Sample Output: 10000
-Left Rotated Bits: 01000000
-Sample Input: 45 //right
-Sample Output: 101101
-Right Rotated Bits: 01001011
-```
 ### Lab 9 :-
-Write an algorithm to Split the Input String into two strings based on even and odd indexes. Left padd '000' string and right pad with '111' string.
-
-#### Test Cases :
-```
-Sample Input:  code.in
-Sample Output: 000cd.n111
-               000oei111
-```
-### Lab 10 :-
 Write a function that creates Even array elements which accepts N is input. Push N to Even Array if the N is even number.
 #### Test Cases :
 ```
-Solution 1 : m x n 
-Menu Options : 
-               1) Diagonal Difference
-               2) Sum of all the Diagonal Elements(Both d1 and d2)
-               3) Diagonal Abs Difference
-               0) Exit.
-After User Input Matrix Elements
-1 2 3
-4 5 6
-7 8 9
-Input: 2 //sum
-Output: 32 
+Sample Input 1 :  16
+Sample Output 1 : [2, 4, 6, 8, 10, 12, 14, 16]
+
+Sample Input 2 :  8
+Sample Output 2 : [2, 4, 6, 8]
+
 ```
-### Lab 11 :- 
+### Lab 10 :- 
 Represent the below matrices as group of rows once and group of cols using Multi Dimensional Arrays and implement the addition of the matrices.
     i) Add 2 matrices size 4x4
    ii) Add 2 matrices size 3x3
@@ -121,44 +110,47 @@ Represent the below matrices as group of rows once and group of cols using Multi
 
 #### Test Cases :
 ```
-Input : n = 3
-2n elements in Array
-[2,5,1,3,4,7]
-[x1,x2,x3,y1,y2,y3]
-O/P : [2,3,5,4,1,7]
-(x1,y1) = (2,3)
-(x2,y2) = (5,4)
-(x3,y3) = (1,7)
+Sample Input 1 :  matrixA = [[1, 2, 3, 4,],  [1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]]
+                  matrixB = [[1, 2, 3, 4,],  [1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]]  
+Sample Output 1 : sum = [[2, 2, 2, 2], [4, 4, 4, 4], [6, 6, ,6, 6], [8, 8, 8, 8]
+
+
+Sample Input 2:  matrixA = [[1, 2, 3], [1, 2, 3], [1, 2, 3,]]
+                 matrixB = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]  
+Sample Output 2 : sum = [[2, 2, 2], [4, 4, 4], [6, 6, ,6]]
+
+
+Sample Input 3:  matrixA = [[1, 2, 3], [1, 2, 3]]
+                 matrixB = [[1, 2, 3], [1, 2, 3]]  
+Sample Output 3 : sum = [[2, 4, 6], [2, 4, 6]]
+
+Sample Input 4:  matrixA = [[1, 2], [1, 2], [1, 2]]
+                 matrixB = [[1, 2], [1, 2], [1, 2]]  
+Sample Output 4 : sum = [[2, 4, [2, 4], [2,4]]
+
 ```
-### Lab 12 :- 
-Split the array and add the first part to the end. There is a given array and split it from a specified position, and move the first part of array add to the end.Write a function that accepts an array and index position to split as arguments. 
-Index position to split = 2
+### Lab 11 :- 
+Split the array and add the first part to the end. There is a given array and split it from a specified position, and move the first part of array add to the end.Write a function that accepts an array and index position to split as arguments. index position to split = 2
 
 #### Test Cases :
 ```
-Sample Input 1 :
-arr= [12, 10, 5, 6, 52, 36]
-Output :
-Array : [5, 6, 52, 36, 12, 10]
+Sample Input 1 : Array : [12, 10, 5, 6, 52, 36]
+Sample Output 1 : [5, 6, 52, 36, 12, 10]
+
+Sample Input 2 : Array : [1, 2, 5, 6, 52, 36]
+Sample Output 2 : [5, 6, 52, 36, 1, 2]
 
 ```
-### Lab 13 :- 
+### Lab 12 :- 
 Write a program to calculate trailing zeros count for factorial of a given input N Number.
 #### Test Cases :
 ```
-Sample Input 1 :
-Array : [1,3,5,6]
-Target Element : 5
-O/p : 2
-Sample Input 2 :
-Array : [1,3,5,6]
-Target Element : 7
-O/p : 4
-```
+Sample Input 1 : 5
+Sample Output 1 : 1
+ 
 
-
-
-Send a message to labs
+Sample Input 2 : 10
+Sample Output 2 : 2
 
 
 
