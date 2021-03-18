@@ -20,10 +20,10 @@ Pattern 2
 Write a Function that accepts the range to Find Odd Numbers between the input range.
 ##### Test Cases :
 ```
-Sample Input 1 :  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sample Input 1 :  1, 10
 Sample Output 1 : 1, 3, 5, 7, 9
 
-Sample Input 2 :  50, 51, 52, 53, 54, 55, 56, 57, 58
+Sample Input 2 :  50, 58
 Sample Output 2 : 51, 53, 55, 57
 
 ```
@@ -31,10 +31,10 @@ Sample Output 2 : 51, 53, 55, 57
 Write a Function which prints the sum of 1-N numbers when N is input.[n(n+1)/2].
 #### Test Cases :
 ```
-Sample Input 1 : 1, 2, 3, 4, 5, 6
+Sample Input 1 : 1, 6
 Sample Output 1 : 21
 
-Sample Input 2 : 20, 21, 22, 23, 24
+Sample Input 2 : 20, 24
 Sample Output 2 : 110
 ```
 ### Lab 5 :-
@@ -152,6 +152,8 @@ Sample Output 1 : 1
 Sample Input 2 : 10
 Sample Output 2 : 2
 
+
+```
 
 
 
